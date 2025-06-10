@@ -16,13 +16,13 @@ export default function Home() {
       padding: "2rem"
     }}>
 
-      <Image
-        src="/gatu-logo-final.png"
-        alt="Logo GatuPatagonia"
-        width={180}
-        height={180}
-        style={{ marginBottom: "2rem" }}
-      />
+<Image
+  src="/gatu-logo-final.png"
+  alt="Logo GatuPatagonia"
+  width={300}
+  height={300}
+  style={{ marginBottom: "2rem" }}
+/>
 
       <p style={{ fontSize: "1.25rem", color: "#4b5563" }}>
         Vuelve pronto para conocer nuestros productos.
