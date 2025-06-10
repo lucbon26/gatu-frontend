@@ -14,10 +14,14 @@ export default function Home() {
       textAlign: "center",
       padding: "2rem"
     }}>
-      <img
+
+      import Image from 'next/image';
+      <Image
         src="/gatu-logo-final.png"
         alt="Logo GatuPatagonia"
-        style={{ width: "180px", marginBottom: "2rem" }}
+        width={180}
+        height={180}
+        style={{ marginBottom: "2rem" }}
       />
 
       <p style={{ fontSize: "1.25rem", color: "#4b5563" }}>
