@@ -1,6 +1,7 @@
 'use client'
 
 import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -15,7 +16,6 @@ export default function Home() {
       padding: "2rem"
     }}>
 
-      import Image from 'next/image';
       <Image
         src="/gatu-logo-final.png"
         alt="Logo GatuPatagonia"
