@@ -1,6 +1,6 @@
 'use client'
 
-import { Facebook, Instagram, Whatsapp } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -30,13 +30,28 @@ export default function Home() {
         gap: "1.5rem",
         justifyContent: "center"
       }}>
-        <a href="https://wa.me/5492944715515" target="_blank" rel="noopener noreferrer" title="WhatsApp">
-          <Whatsapp color="#25D366" size={32} />
+        <a
+          href="https://wa.me/5492944715515"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="WhatsApp"
+        >
+          <MessageCircle color="#25D366" size={32} />
         </a>
-        <a href="https://www.facebook.com/gatupatagonia" target="_blank" rel="noopener noreferrer" title="Facebook">
+        <a
+          href="https://www.facebook.com/gatupatagonia"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Facebook"
+        >
           <Facebook color="#1877F2" size={32} />
         </a>
-        <a href="https://www.instagram.com/gatupatagonia/" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <a
+          href="https://www.instagram.com/gatupatagonia/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
           <Instagram color="#E1306C" size={32} />
         </a>
       </div>
