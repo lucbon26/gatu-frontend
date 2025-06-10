@@ -11,7 +11,7 @@ export default function Home() {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      background: "#f3f4f6",
+      background: "#E9B9F1",
       textAlign: "center",
       padding: "2rem"
     }}>
