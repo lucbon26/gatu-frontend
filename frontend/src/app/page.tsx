@@ -2,10 +2,6 @@
 
 import { Facebook, Instagram, MessageCircle } from 'lucide-react';
 
-export const metadata = {
-  title: 'GatuPatagonia',
-};
-
 export default function Home() {
   return (
     <main style={{
