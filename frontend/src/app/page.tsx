@@ -66,7 +66,7 @@ export default function Home() {
       </div>
 
       <button
-        onClick={() => signIn("google")}
+        onClick={() => signIn("google", { callbackUrl: "/preview" })}
         style={{
           marginTop: "3rem",
           padding: "0.75rem 1.5rem",
