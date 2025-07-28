@@ -30,8 +30,10 @@ export default function PreviewPage() {
         Bienvenido, {session.user?.name}
       </h1>
       <button
-        onClick={() => signOut({ callbackUrl: 'https://www.gatupatagonia.com.ar/' })}
-        style={{
+        onClick={async () => {
+    await signOut({ callbackUrl: '/' });
+  }}
+   style={{
           padding: '0.75rem 1.5rem',
           backgroundColor: '#ef4444',
           color: '#fff',
