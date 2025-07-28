@@ -1,6 +1,8 @@
+
 'use client'
 
 import { Facebook, Instagram, MessageCircle } from 'lucide-react';
+import { signIn } from 'next-auth/react';
 import Image from 'next/image';
 
 export default function Home() {
@@ -62,6 +64,22 @@ export default function Home() {
           <Instagram color="#E1306C" size={32} />
         </a>
       </div>
+
+      <button
+        onClick={() => signIn("google")}
+        style={{
+          marginTop: "3rem",
+          padding: "0.75rem 1.5rem",
+          backgroundColor: "#a855f7",
+          color: "#fff",
+          border: "none",
+          borderRadius: "0.5rem",
+          cursor: "pointer",
+          fontSize: "1rem"
+        }}
+      >
+        Acceso privado
+      </button>
     </main>
   );
 }
