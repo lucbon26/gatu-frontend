@@ -30,9 +30,7 @@ export default function PreviewPage() {
         Bienvenido, {session.user?.name}
       </h1>
       <button
-        onClick={async () => {
-    await signOut({ callbackUrl: '/' });
-  }}
+        onClick={() => signOut({ callbackUrl: '/' });}
    style={{
           padding: '0.75rem 1.5rem',
           backgroundColor: '#ef4444',
