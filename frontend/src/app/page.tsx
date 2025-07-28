@@ -19,7 +19,7 @@ export default function Home() {
     }}>
 
 <Image
-  src="/public/gatu-logo-final.png"
+  src="/gatu-logo-final.png"
   alt="Logo GatuPatagonia"
   width={300}
   height={300}
