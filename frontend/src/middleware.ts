@@ -22,7 +22,7 @@ export async function middleware(request: NextRequest) {
 
   // Si no hay token, redirige al login
   if (!token) {
-    const loginUrl = new URL("/", request.url);
+    const loginUrl = new URL("/login", request.url);
     return NextResponse.redirect(loginUrl);
   }
 
